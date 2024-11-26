@@ -15,7 +15,7 @@ struct Colorliterals: View {
         }
         .frame(width: 300, height: 200)
         .background(Image(uiImage: #imageLiteral(resourceName: "ok")).resizable().aspectRatio(contentMode: .fill))
-        .cornerRadius(200)
+        .cornerRadius(20)
     }
 }
 
